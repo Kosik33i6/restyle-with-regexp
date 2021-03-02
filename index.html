@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restyle With Regexp</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div data-regexp="['test','next']" data-styling="strong">
+        Lorem ipsum test lorem ipsum next lorem ipsum
+    </div>
+    <div data-regexp="['test','next']" data-styling=".bold">
+        Class Lorem ipsum test lorem ipsum next lorem ipsum
+    </div>
+    <div data-regexp="['test','next','sit','molestias']" data-styling="strong">
+        Lorem ipsum test lorem ipsum next lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor repellendus autem laborum, officia molestiae rem cupiditate assumenda nam placeat itaque cumque iusto doloremque. Molestias tenetur modi fugit saepe cupiditate voluptates?
+    </div>
+    <div data-regexp="['lorem','itaque','tenetur']" data-styling=".bold">
+        Lorem ipsum test lorem ipsum next lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor repellendus autem laborum, officia molestiae rem cupiditate assumenda nam placeat itaque cumque iusto doloremque. Molestias tenetur modi fugit saepe cupiditate voluptates?
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
